@@ -1,26 +1,26 @@
 {
     "list": [{
-            "thumb": "../content/images/video/1.jpg",
+            "thumb": "./content/images/video/1.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/2.jpg",
+            "thumb": "./content/images/video/2.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/3.jpg",
+            "thumb": "./content/images/video/3.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/4.jpg",
+            "thumb": "./content/images/video/4.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/5.jpg",
+            "thumb": "./content/images/video/5.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
