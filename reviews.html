@@ -33,11 +33,33 @@
     
     <!-- Page css / End -->
     <meta name="theme-color" content="#fafafa">
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '690349841458639',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v2.11'
+            });
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </head>
 
 <body>
     <!--[if lte IE 10]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p> <![endif]-->
     <div class="l-container">
+        <div class="fb-customerchat" page_id="<PAGE_ID>" ref="<OPTIONAL_WEBHOOK_PARAM>" minimized="<true|false>">
+        </div>
         <header>
             <div class="l-wrap">
                 <div class="l-header">
@@ -165,8 +187,7 @@
                             <ul class="l-footerInfo">
                                 <li>
                                     <span class="l-footerInfo__title">LINE ID：</span>
-                                    <a class="c-link" href="http://line.me/ti/p/@bookhoimage"
-                                        target="_blank"><span>bookhoimage</span></a>
+                                    <a class="c-link" href="" target="_blank"><span>bookhoimage</span></a>
                                 </li>
                                 <li>
                                     <span class="l-footerInfo__title">電子郵件：</span>
