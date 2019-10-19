@@ -98,21 +98,25 @@
         </header>
         <main class="l-main">
             
-<div class="l-section">
-    <div class="l-section__heading">
+
+<div class="l-banner" style="background-image:url(content/images/banner/news.jpg);">
+    <div class="l-banner__title">
         <div class="l-wrap">
-            
-<div class="l-heading" data-aos="fadeIn">
-    <div class="l-heading__title">
-        reviews
-    </div>
-    <div class="l-heading__subtitle">
-        the bride said
+            <div class="l-heading">
+                <div class="l-heading__title" data-aos="fadeIn" data-aos-duration="600">
+                    book news
+                </div>
+                <div class="l-heading__subtitle" data-aos="fadeIn" data-aos-duration="600">
+                    the bride need to know
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-        </div>
-    </div>
+
+
+<div class="l-section">
     <div class="l-section__content">
         <div class="l-wrap">
             <div data-reviews></div>
@@ -222,7 +226,7 @@
 
         function getData(offset, size) {
             $.ajax({
-                url: "data/reviews.json",
+                url: "data/news.json",
                 type: "GET",
                 dataType: "json",
                 success: function (reponse) {
@@ -235,22 +239,22 @@
 
                     for (i = offset; i < (offset + size); i++) {
                         result +=
-                            '<div class="l-cols l-reviewBlock l-reviewBlock--staggered" data-aos="fadeIn" data-aos-duration="600">' +
-                            '<div class="l-cols__6 l-cols__12@m l-reviewBlock__thumb">' +
-                            '<div class="l-thumbVertical">' +
+                            '<div class="l-cols l-reviewBlock l-reviewBlock--staggered l-reviewBlock--center" data-aos="fadeIn" data-aos-duration="600">' +
+                            '<div class="l-cols__7 l-cols__12@m l-reviewBlock__thumb">' +
+                            '<div class="l-thumbHorizontal">' +
                             '<img src="' + data[i].thumb + '" alt="' + data[i].thumbdesc + '">' +
                             '</div>' +
                             '</div>' +
-                            '<div class="l-cols__6 l-cols__12@m l-reviewBlock__desc">' +
+                            '<div class="l-cols__5 l-cols__12@m l-reviewBlock__desc">' +
                             '<div class="l-reviewDesc">' +
-                            '<div class="l-reviewDesc__date">' +
-                            data[i].date +
-                            '</div>' +
                             '<div class="l-reviewDesc__couple">' +
                             data[i].title +
                             '</div>' +
                             '<div class="l-reviewDesc__feedback">' +
                             data[i].desc +
+                            '</div>' +
+                            '<div class="l-reviewDesc__more">' +
+                            '<a href="' + data[i].url + '" class="c-btn">MORE</a>' +
                             '</div>' +
                             '</div>' +
                             '</div>' +
