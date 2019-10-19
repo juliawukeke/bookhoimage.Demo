@@ -1,46 +1,46 @@
 {
     "list": [{
-            "thumb": "/content/images/video/1.jpg",
+            "thumb": "../content/images/video/1.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/2.jpg",
+            "thumb": "../content/images/video/2.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/3.jpg",
+            "thumb": "../content/images/video/3.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/4.jpg",
+            "thumb": "../content/images/video/4.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/5.jpg",
+            "thumb": "../content/images/video/5.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/6.jpg",
+            "thumb": "../content/images/video/6.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/7.jpg",
+            "thumb": "../content/images/video/7.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/8.jpg",
+            "thumb": "../content/images/video/8.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "/content/images/video/9.jpg",
+            "thumb": "../content/images/video/9.jpg",
             "thumbdesc": "",
             "url": ""
         }
