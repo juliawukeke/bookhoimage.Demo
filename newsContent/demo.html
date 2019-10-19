@@ -33,33 +33,43 @@
     
     <!-- Page css / End -->
     <meta name="theme-color" content="#fafafa">
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                appId: '690349841458639',
-                autoLogAppEvents: true,
-                xfbml: true,
-                version: 'v2.11'
-            });
-        };
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "https://connect.facebook.net/en_US/sdk.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 </head>
 
 <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v4.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="109404297146369" theme_color="#d696bb"
+        logged_in_greeting="Hi! How can we help you?" logged_out_greeting="Hi! How can we help you?">
+    </div>
+
     <!--[if lte IE 10]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p> <![endif]-->
     <div class="l-container">
-        <div class="fb-customerchat" page_id="<PAGE_ID>" ref="<OPTIONAL_WEBHOOK_PARAM>" minimized="<true|false>">
-        </div>
+        <!-- <div class="fb-customerchat" page_id="109404297146369" minimized="true"></div> -->
+
+        <!-- <div class="fb-customerchat" page_id="<PAGE_ID>" ref="<OPTIONAL_WEBHOOK_PARAM>" theme_color="<HEX_COLOR_CODE>"
+            logged_in_greeting="<GREETING_MESSAGE_FOR_LOGGED_IN_USERS>"
+            logged_out_greeting="<GREETING_MESSAGE_FOR_LOGGED_OUT_USERS>">
+        </div> -->
+
         <header>
             <div class="l-wrap">
                 <div class="l-header">
