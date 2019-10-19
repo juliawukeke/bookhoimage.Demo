@@ -2,21 +2,21 @@
     "list": [{
             "title": "全家福 Family love",
             "desc": "描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一",
-            "thumb": "../content/images/news/1.jpg",
+            "thumb": "./content/images/news/1.jpg",
             "thumbdesc": "",
             "url": "newsContent/demo.html"
         },
         {
             "title": "Leo + Nicole",
             "desc": "描述二描述二描述二描述二描述二描述二描述二描述二描述二描述二描述二描述二",
-            "thumb": "../content/images/news/2.jpg",
+            "thumb": "./content/images/news/2.jpg",
             "thumbdesc": "",
             "url": "newsContent/demo.html"
         },
         {
             "title": "Debby Family",
             "desc": "描述三描述三描述三描述三描述三描述三描述三描述三描述三描述三描述三描述三",
-            "thumb": "../content/images/news/3.jpg",
+            "thumb": "./content/images/news/3.jpg",
             "thumbdesc": "",
             "url": "newsContent/demo.html"
         }

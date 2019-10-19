@@ -3,21 +3,21 @@
             "date": "20190608",
             "title": "Stephen + Kimmy",
             "desc": "描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一描述一",
-            "thumb": "../content/images/reviews/1.jpg",
+            "thumb": "./content/images/reviews/1.jpg",
             "thumbdesc": "Stephen + Kimmy"
         },
         {
             "date": "20181006",
             "title": "Leo + Nicole",
             "desc": "描述二描述二描述二描述二描述二描述二描述二描述二描述二描述二描述二描述二",
-            "thumb": "../content/images/reviews/2.jpg",
+            "thumb": "./content/images/reviews/2.jpg",
             "thumbdesc": "Leo + Nicole"
         },
         {
             "date": "20190304",
             "title": "Debby Family",
             "desc": "描述三描述三描述三描述三描述三描述三描述三描述三描述三描述三描述三描述三",
-            "thumb": "../content/images/reviews/3.jpg",
+            "thumb": "./content/images/reviews/3.jpg",
             "thumbdesc": "Debby Family"
         }
     ]

@@ -25,22 +25,22 @@
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/6.jpg",
+            "thumb": "./content/images/video/6.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/7.jpg",
+            "thumb": "./content/images/video/7.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/8.jpg",
+            "thumb": "./content/images/video/8.jpg",
             "thumbdesc": "",
             "url": "videoContent/demo.html"
         },
         {
-            "thumb": "../content/images/video/9.jpg",
+            "thumb": "./content/images/video/9.jpg",
             "thumbdesc": "",
             "url": ""
         }
